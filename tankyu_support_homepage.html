@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>中学生向け 興味探究サポート</title>
+  <style>
+    body {
+      font-family: "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+      background-color: #f8f8f8;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #0066cc;
+      color: #fff;
+      padding: 1.5rem;
+      text-align: center;
+    }
+    section {
+      max-width: 800px;
+      margin: 2rem auto;
+      padding: 1.5rem;
+      background-color: #fff;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    }
+    h2 {
+      color: #0066cc;
+    }
+    ul {
+      padding-left: 1.2rem;
+    }
+    .cta {
+      text-align: center;
+      margin-top: 2rem;
+    }
+    .cta a, .cta button {
+      background-color: #ff6600;
+      color: #fff;
+      padding: 1rem 2rem;
+      text-decoration: none;
+      border: none;
+      border-radius: 5px;
+      font-size: 1.1rem;
+      cursor: pointer;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      color: #888;
+      font-size: 0.9rem;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+    label {
+      font-weight: bold;
+    }
+    input, textarea, select {
+      padding: 0.5rem;
+      font-size: 1rem;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>中学生向け 興味探究サポート</h1>
+    <p>無料体験モニター募集中!<strong style="color: #ff0000;">（先着5名）</strong></p>
+  </header>
+  <section>
+    <h2>このサービスはこんな中学生におすすめ</h2>
+    <ul>
+      <li>学校のペースに物足りなさを感じている</li>
+      <li>自分の興味を深く探究してみたい</li>
+      <li>必要なら学習計画を一緒に立てて進めたい</li>
+    </ul>
+  </section>
+  <section>
+    <h2>サービスの内容</h2>
+    <ul>
+      <li>60分間のマンツーマンサポート</li>
+      <li>学校の先取り学習</li>
+      <li>自由研究・興味探究のサポート</li>
+      <li>その日の興味で深掘りする緩いシステム</li>
+    </ul>
+    <p><strong style="color: #ff0000;">先着5名限定！</strong> 無料体験後は、500円からの自由料金制となります。<br>※料金についてはご相談次第で柔軟に変更することができます。</p>
+  </section>
+  <section>
+    <h2>運営者について</h2>
+    <p>こんにちは！現在、私は大阪大学で経済学を学んでいます！<br>
+    自分自身、中学高校時代に「もっと自由に好きなことを深く学びたい」「学校の授業じゃ少し物足りない」と感じていました。<br>
+    このサービスは、そんな私と同じような思いを持った中学生のみなさんを応援するために始めました。
+    <p>加えて、私は大学在学中に起業をするという経験を積みたくて、この事業を打ち立てました。
+    ですのでお金儲けのことはあまり考えておりません。<br>
+    好きなことにワクワクできる学び、一緒に体験してみませんか？</p>
+  </section>
+  <section>
+    <h2>申し込みフォーム</h2>
+    <form action="#" method="post">
+      <label for="grade">学年</label>
+      <select id="grade" name="grade" required>
+        <option value="">選択してください</option>
+        <option value="1年生">中学1年生</option>
+        <option value="2年生">中学2年生</option>
+        <option value="3年生">中学3年生</option>
+      </select>
+      <label for="name">名前（ニックネーム可）</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">メールアドレス</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="address">住所（市区町村まででOK）</label>
+      <input type="text" id="address" name="address">
+
+      <label for="interest">学びたい・興味のある分野</label>
+      <input type="text" id="interest" name="interest">
+
+      <label for="message">質問・気になること</label>
+      <textarea id="message" name="message" rows="4"></textarea>
+
+      <div class="cta">
+        <button type="submit">申し込む</button>
+      </div>
+    </form>
+  </section>
+  <section>
+    <h2>お問い合わせ</h2>
+    <p>サービスについてご不明な点がありましたら、以下のメールアドレスまでお気軽にご連絡ください。</p>
+    <p><strong>メールアドレス：TankyuJHS@outlook.jp</strong></p>
+  </section>
+  <footer>
+    &copy; 2025 中学生探究サポート by 保坂恵佑
+    <p>📷 <a href="https://www.instagram.com/TankyuJHS" target="_blank">公式Instagramはこちら</a></p>
+  </footer>
+</body>
+</html>
